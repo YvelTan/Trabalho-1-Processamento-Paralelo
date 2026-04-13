@@ -9,22 +9,6 @@
 | `Barbeiro.java`      | Thread do barbeiro: dorme, corta, coleta métricas         |
 | `Main.java`          | Ponto de entrada: cria threads, aguarda e exibe estatísticas |
 
-## Compilar e executar
-
-### Requisitos
-- Java 11+ (JDK — inclui javac)
-
-### Compilar
-```bash
-mkdir -p out
-javac *.java -d out/
-```
-
-### Executar
-```bash
-java -cp out Main
-```
-
 ## Primitivas de sincronização
 
 | Primitiva            | Objeto               | Papel                                      |
